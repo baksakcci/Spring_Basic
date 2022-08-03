@@ -6,6 +6,9 @@ import org.springframework.beans.factory.InitializingBean;
 /*
 외부 네트워크에 미리 연결하는 객체
 실제 네트워크에 연결하는 것 대신 단순 문자열만 출력하도록 설계
+
+1. InitializingBean, DisposableBean interface
+
  */
 public class NetworkClient implements InitializingBean, DisposableBean {
     private String url;
