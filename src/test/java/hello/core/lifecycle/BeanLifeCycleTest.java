@@ -29,6 +29,7 @@ class BeanLifeCycleTest {
 
     @Configuration
     static class LifeCycleConfig {
+        // @Bean(initMethod = "init", destroyMethod = "close")
         @Bean
         public NetworkClient networkClient() {
             NetworkClient networkClient = new NetworkClient(); // 생성자에서 먼저 실행 -> null값이 나옴
