@@ -18,6 +18,8 @@
 - `container`
 - `component`
 - `autowired`
+- `call back`
+- `bean scope`
 ...공부하면서 추가될 예정
 
 ## 기술 스택
